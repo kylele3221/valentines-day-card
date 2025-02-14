@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Will You Be My ACM Valentine?",
+  title: "Will You Be My Valentine?",
 };
 
 export default function RootLayout({
@@ -20,9 +20,6 @@ export default function RootLayout({
       </head>
       <body>
         {children}
-        <div className="hack-logo">
-          <Image src="/ACMHack.png" alt="acm logo" width={130} height={40} />
-        </div>
       </body>
     </html>
   );

@@ -25,7 +25,6 @@ export default function Home() {
       "Are you sure 🤔?",
       "But what if 🫣?",
       "You're breaking my heart 💔",
-      "Pwetty please 🥺👉👈",
       "Can't catch up? 😂"
     ]
 
@@ -41,7 +40,7 @@ export default function Home() {
     <div className="container">
       <section>
         <div>
-          <p>♡ Will you be my ACM Valentine? ♡</p>
+          <p>♡ Will you be my Valentine? ♡</p>
         </div>
         <div className="img-container">
           {image ? (
